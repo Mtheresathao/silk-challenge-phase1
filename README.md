@@ -7,22 +7,26 @@ Trong thử thách này, nhiệm vụ của bạn là phân tích mã nguồn, t
 ## 📝 Đề bài chi tiết
 
 - **File làm việc chính:** `de_bai.sv`
-- **Mô tả:** File này sẽ được dùng làm khối **top-module**, thay thế cho khối `vga.v` hiện hành trên repository GitHub của Silk FPGA tại đường dẫn https://github.com/HUYATIEO/silk-fpga.
+- **Mô tả:** File này sẽ được dùng làm khối **top-module**, thay thế cho khối `vga.v` hiện hành trên repository GitHub của Silk FPGA tại đường dẫn: [https://github.com/HUYATIEO/silk-fpga](https://github.com/HUYATIEO/silk-fpga).
 - **Thử thách:** Trong file đề bài sẽ cố ý đặt **03 lỗi logic**. Các lỗi này nằm rải rác trên 03 dòng code khác nhau (mỗi lỗi chỉ nằm ở 1 chỗ duy nhất). Nhiệm vụ của bạn là đọc hiểu đoạn mã, khoanh vùng và sửa lại cho đúng logic phần cứng.
 
 ## 🚀 Hướng dẫn tham gia thi
 
 Để hoàn thành phần thi một cách tốt nhất, các bạn thực hiện theo các trình tự sau:
 
-1. **Làm quen với Board ảo:**
-   - Hãy chạy thử project VGA hiện có trên GitHub của Silk FPGA trước.
-   - Tạo một file `.js` để nạp code và làm quen với các thao tác điều khiển, tương tác trên board ảo.
-2. **Bắt đầu tính giờ:**
+1. **Bắt đầu tính giờ & Sửa code:**
    - Khi bạn chính thức bắt đầu bài thi, hệ thống sẽ kích hoạt **Timer (đồng hồ bấm giờ)**.
-   - Bắt tay vào debug file `de_bai.sv`.
-3. **Nạp code & Đua top:**
-   - Sau khi tự tin đã fix xong 3 lỗi, tiến hành nạp code đã sửa lên board ảo.
-   - **Nạp code đúng -> Bay lên Bảng Xếp Hạng!** Thời gian hoàn thành càng ngắn, thứ hạng của bạn càng cao.
+   - Bắt tay vào debug và sửa các lỗi trong file `de_bai.sv`.
+
+2. **Biên dịch và tạo file nạp (.js):**
+   - Sau khi thực hiện sửa code, để kiểm tra lại kết quả, bạn thực hiện các bước như hướng dẫn sử dụng của repository GitHub Silk FPGA tại đường dẫn: [https://github.com/HUYATIEO/silk-fpga](https://github.com/HUYATIEO/silk-fpga).
+   - **Lưu ý quan trọng:** Bạn cần thay thế file `vga.v` gốc thành file `de_bai.sv` của bạn trong quá trình build để tạo ra file `.js`.
+
+3. **Kiểm tra trên Board ảo & Nộp bài:**
+   - Đem file `.js` vừa tạo nạp lên board ảo tại đường dẫn: [https://silkfpga.ctw-sevina.com/](https://silkfpga.ctw-sevina.com/).
+   - Bạn có thể liên tục sửa lỗi và nạp thử cho đến khi màn hình VGA của board ảo đã hiển thị đúng.
+   - Khi kết quả trên VGA đã chuẩn xác, tiến hành **nộp lại file `.js` đó trực tiếp tại website của Remote Lab luôn**.
+   - **Nộp bài thành công -> Bay lên Bảng Xếp Hạng!** Thời gian hoàn thành càng ngắn, thứ hạng của bạn càng cao.
 
 ---
 *Chúc các Thợ săn logic "săn bug" thành công và đạt thứ hạng cao nhất!* 🐛🔨
