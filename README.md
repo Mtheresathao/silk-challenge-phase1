@@ -7,7 +7,7 @@ Trong thử thách này, nhiệm vụ của bạn là phân tích mã nguồn, t
 ## 📝 Đề bài chi tiết
 
 - **File làm việc chính:** `de_bai.sv`
-- **Mô tả:** File này sẽ được dùng làm khối **top-module**, thay thế cho khối `vga.v` hiện hành trên repository GitHub của Silk FPGA.
+- **Mô tả:** File này sẽ được dùng làm khối **top-module**, thay thế cho khối `vga.v` hiện hành trên repository GitHub của Silk FPGA tại đường dẫn https://github.com/HUYATIEO/silk-fpga.
 - **Thử thách:** Trong file đề bài sẽ cố ý đặt **03 lỗi logic**. Các lỗi này nằm rải rác trên 03 dòng code khác nhau (mỗi lỗi chỉ nằm ở 1 chỗ duy nhất). Nhiệm vụ của bạn là đọc hiểu đoạn mã, khoanh vùng và sửa lại cho đúng logic phần cứng.
 
 ## 🚀 Hướng dẫn tham gia thi
